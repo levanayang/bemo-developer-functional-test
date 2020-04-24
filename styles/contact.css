@@ -1,0 +1,52 @@
+.feature-image{
+	background: url("../images/contact-us.png");
+	width: 100%;
+	padding-bottom: 50%;
+	margin-top: -60px;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -1;
+	margin-bottom: 55px;
+}
+
+p{
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+
+p.title{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+form p {
+	letter-spacing: 1px;
+	font-size: 12px;
+	padding: 15px 0 3px 0;
+}
+
+form {
+	text-align: center;
+	padding: 0px 0 50px 0;
+}
+
+input[type=text], input[type=email], textarea{
+	background: #CCCCCC;
+	width: 87%;
+	padding: 9px;
+	outline: none;
+	border: none;
+}
+
+input[type=reset], input[type=submit] {
+	margin: 15px 5px 15px 0px
+}
+
+.note{
+	font-size: 15px;
+	width: 100%;
+	text-align: center!important;
+	margin: 10px 0 20px 0;
+}
